@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -8,8 +13,7 @@ h1{
     font-size: 65px;
 }
 h2{
-    font-size: 50
-    px;
+    font-size: 50px;
 }
 p{
     text-align: justify;
@@ -19,9 +23,11 @@ p{
 .color-salman{
     color: black;
 }
-.first-section{
+.flexible-container{
     display: flex;
     align-items: center;
+}
+.first-section{
     background-image: linear-gradient(salmon , rgb(187, 52, 52));
     color: white;
     padding-bottom:50px ;
@@ -30,12 +36,16 @@ p{
 .half-div{
     width: 50%;
 }
+.half-div h1, h2, p{
+    margin: 20px 0px;
+}
 .half-div img{
     width: 80%;
     padding-left: 50px;
 }
 .padding-right-p{
     padding-right: 30px;
+    padding-bottom: 30px;
 }
 .link-btn{
     text-decoration: none;
@@ -44,4 +54,34 @@ p{
     background-image: linear-gradient(white, rgb(221, 214, 214));
     padding: 10px 30px;
     margin: 20px;
+    border-radius: 5px;
+}
+.nav-bar{
+    background-color: salmon;
+    padding: 50px;
+}
+.nav-bar ul{
+    list-style-type: none;
+    
+    
+}
+.nav-bar ul li{
+    display: inline-block;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    padding: 10px 30px;
+    border-right: 2px solid white;
+    /* background-color: white; */
+}
+#Search-div{
+    padding-left: 600px;
+}
+#Search-div input{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 0px solid red
 }
