@@ -113,3 +113,7 @@ p{
     height: 300px;
     box-shadow: 3px 15px 33px 7px black;
 }
+footer p{
+    padding-top: 52px;
+    text-align: center;
+}
